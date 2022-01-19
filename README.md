@@ -10,7 +10,7 @@ Minimal repro for an issue encountered when building a native image with the
 * Optional: in case you want to run the tests/play with the project, add a `.env` file at the root with
 `demo.github.pat=<a valid github personal access token>`.
 
-Observed stack:
+Observed stack using GraalVM 21.3.0 (with java 11), gu --version GraalVM Updater 21.3.0
 
 ```
 Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: okhttp3.OkHttpClient$Builder. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
