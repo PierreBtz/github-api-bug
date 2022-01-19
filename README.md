@@ -3,6 +3,8 @@
 Minimal repro for an issue encountered when building a native image with the 
 [quarkus-github-api](https://github.com/quarkiverse/quarkus-github-api) project.
 
+See bug: https://github.com/quarkiverse/quarkus-github-api/issues/113
+
 ## Reproduction steps:
 
 * clone
